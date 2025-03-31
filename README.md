@@ -2,11 +2,17 @@
 
 This project is a web application built with Next.js 15, following some Clean Architecture principles. It includes a well-structured development environment and supports integrations through an environment configuration file.
 
+## About the Project
+
+This application is a chat system where each response is generated as a new question, storing the previous answer and scoring whether it was correct or not. The logic is implemented using AI-driven prompts and follows Clean Architecture principles. The project also includes simple test examples using Jest.
+
 ## Technologies Used
 
 - **Next.js 15**
-- **TypeScript** (if applicable)
+- **TypeScript**
 - **Clean Architecture**
+- **Jest for testing**
+- **AI-powered prompts**
 - **Environment configuration via .env.example**
 
 ## How to Run the Project
@@ -57,3 +63,4 @@ If you would like to contribute, follow these steps:
 ## License
 
 This project is licensed under the [MIT](LICENSE) license.
+
