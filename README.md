@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js 15 Project
 
-## Getting Started
+This project is a web application built with Next.js 15, following some Clean Architecture principles. It includes a well-structured development environment and supports integrations through an environment configuration file.
 
-First, run the development server:
+## Technologies Used
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js 15**
+- **TypeScript** (if applicable)
+- **Clean Architecture**
+- **Environment configuration via .env.example**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How to Run the Project
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Requirements
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Node.js (recommended version: 18+)
+- Package manager (npm, yarn, or pnpm)
 
-## Learn More
+### Steps to Run
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/repository-name.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd repository-name
+   ```
+3. Install dependencies:
+   ```sh
+   npm install  # or yarn install or pnpm install
+   ```
+4. Set up the environment:
+   - Copy the `.env.example` file to `.env` and fill in the required variables.
+   ```sh
+   cp .env.example .env
+   ```
+5. Start the development server:
+   ```sh
+   npm run dev  # or yarn dev or pnpm dev
+   ```
+6. To run the application in production mode:
+   ```sh
+   npm start  # or yarn start or pnpm start
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contribution
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+If you would like to contribute, follow these steps:
 
-## Deploy on Vercel
+1. Fork the repository
+2. Create a new branch for your feature (`git checkout -b my-feature`)
+3. Commit your changes (`git commit -m 'My new feature'`)
+4. Push to the branch (`git push origin my-feature`)
+5. Open a Pull Request
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the [MIT](LICENSE) license.

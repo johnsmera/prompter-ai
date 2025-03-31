@@ -1,0 +1,25 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Message {
+  id    String @id @default(uuid()) @db.Uuid
+  userId String
+  userMessage String
+  responseMessage String
+  userResponseMessage String?
+  userResponseScore Int?
+  generatedQuestion String?
+  createdAt DateTime @default(now())
+}
+
+model User {
+  id   String @id @default(uuid()) @db.Uuid
+  name  String
+  email String
+}
