@@ -24,7 +24,7 @@ This project is a web application built with Next.js 15, following some Clean Ar
    ```
 2. Navigate to the project directory:
    ```sh
-   cd repository-name
+   cd prompter-ai
    ```
 3. Install dependencies:
    ```sh
