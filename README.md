@@ -20,7 +20,7 @@ This project is a web application built with Next.js 15, following some Clean Ar
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/repository-name.git
+   git clone https://github.com/johnsmera/prompter-ai.git
    ```
 2. Navigate to the project directory:
    ```sh
