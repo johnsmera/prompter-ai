@@ -14,6 +14,7 @@ This application is a chat system where each response is generated as a new ques
 - **Jest for testing**
 - **AI-powered prompts**
 - **Environment configuration via .env.example**
+- **Prisma ORM example**
 
 ## How to Run the Project
 
